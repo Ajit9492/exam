@@ -1,5 +1,5 @@
 from openjdk
 WORKDIR /app
 copy . /app
-RUN javac pattern.java
-CMD ["java", "pattern"]
+run javac pattern1.java
+cmd ["java","pattern1"]
